@@ -34,4 +34,4 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: bhadash1/cicd-react-dh:v2
+        tags: ${{ vars.DOCKER_HUB_USER_ID }}/cicd-react-dh:v3
